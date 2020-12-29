@@ -6,7 +6,7 @@ exports.createTodo = (req, res) => {
         if (err) {
             res.status(500).json({ 'success': 'false', 'message': "Error in Database." });
         }
-        // if (data != null || data != undefined) {
+        // if (data != null || data != undefined) { Hellow
         //     res.status(200).json({ 'success': 'false', 'message': 'List data already exist.' });
         // }
         else {
