@@ -25,6 +25,7 @@ exports.createList = (req, res) => {
 
 exports.getListData = (req, res) => {
     ListData.find({}, (err, data) => {
+        console.log("deploy",data)
         if (err) {
             res.status(500).json({ 'success': 'false', 'message': "Error in getting list data.", err: err });
         } else {
