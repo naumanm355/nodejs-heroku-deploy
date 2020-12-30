@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const connectionStr = "mongodb://127.0.0.1:27017";
+const connectionStr = "mongodb+srv://EnterPassword:EnterPassword@cluster0.ofcaz.mongodb.net/test" //"mongodb://127.0.0.1:27017";
 
 const options = {
     reconnectTries: Number.MAX_VALUE,
